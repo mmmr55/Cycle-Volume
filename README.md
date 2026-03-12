@@ -10,9 +10,9 @@ To the people nitpicking and taking things out of context: Who the fuck do you t
 
 On Code Quality: Who the fuck dares to claim that they can write C++ without ever encountering an unexpected null pointer? That's the nature of low-level development.
 
-On Threading: The logic was running strictly on the main thread during my implementation, and I verified it with actual in-game testing. I simply hadn't implemented the multi-threading controls yet. Don't presume to lecture me on an architecture you clearly haven't even begun to grasp.
+On Threading:  simply hadn't implemented the multi-threading controls yet. 
 
-On "Infringement" & The Sacred Source: To my "dear collaborator"—since when did reading your source code become a blood oath? Are you seriously suggesting that once a mortal gazes upon your "divine" scripts, they are forever forbidden from writing their own implementation of a fertility system? That's not a copyright claim; that's a cult. I’ve completely rebuilt the logic, yet you still play the "infringement" card because you're terrified of a version that actually functions better than yours.
+On "Infringement" & The Sacred Source: To my "dear collaborator"—since when did reading your source code become a blood oath? Are you seriously suggesting that once a mortal gazes upon your "divine" scripts, they are forever forbidden from writing their own implementation of a fertility system? That's not a copyright claim; that's a cult.
 
 On My Intentions (A User’s Perspective): My only goal has always been to reduce the goddamn pressure on the script engine. I am a player first, just like everyone else in this community. I know the frustration of having a perfect load order ruined by script lag and engine stutter. I didn't write this as some distant dev looking for a trophy; I wrote this as a user who was sick and tired of the performance bottlenecks. I wanted a community environment where players could actually enjoy heavy-script mods without the game shitting itself. Moving this logic to a DLL was an act of optimization for the sake of every user's stability.
 

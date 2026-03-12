@@ -1,27 +1,3 @@
-// =====================================================================
-//  Menu.cpp — SKSEMenuFramework 集成
-//
-//  两条数据路线:
-//    A. 配置 (Config route)  — 读写 Fertility:: inline 全局变量
-//       用户修改 → 内存立即生效 → 关闭菜单时 SaveToDisk()
-//       数据来源: ConfigManager.h 的 inline 变量
-//
-//    B. 状态 (Status route)  — 只读 co-save 运行时数据
-//       来源: Storage::GetRecipient / GetPregnancy / GetChild 等
-//       这些数据随游戏进行动态变化, 不写回 JSON
-//
-//  架构:
-//    Settings    — 全局开关 + 调试 (Config)
-//    Cycle       — 周期参数 (Config)
-//    Pregnancy   — 妊娠参数 (Config)
-//    Birth       — 分娩/出生参数 (Config)
-//    Scaling     — 体型缩放 (Config)
-//    Automation  — 自动化 (Config)
-//    Tracking    — 当前目标状态 (Status, co-save)
-//    Children    — 子代列表 (Status, co-save)
-//    Debug       — 调试信息 (混合)
-// =====================================================================
-
 #include "Menu.h"
 
 #include "ConfigManager.h"
@@ -586,3 +562,4 @@ Menu::Menu()
 }
 
 }  // namespace Fertility
+

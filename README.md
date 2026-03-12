@@ -10,6 +10,8 @@
 关于 WinSock2：之前的 WinSock2 是因为 NG 模板（CommonLibVR）自带的。我已经反馈给上游：[CommonLibVR/issues。](https://github.com/alandtse/CommonLibVR/issues)
 修复进度：空指针和野指针修得差不多了，剩下看心情。
 我会去忙一些我确定拥有绝对权限、且纯粹属于我自己的改进工作。
+
+
 About This Project
 Since the author of Wondernutts has labeled my previous version as the work of an "uncredited thief," I will no longer be releasing any compiled builds. This repository is now for my personal use and for my friends, or for those who wish to build it themselves. I claim no copyright (Unlicense) as this was always intended for personal use.
 Clarifications and Responses:

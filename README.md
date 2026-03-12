@@ -16,7 +16,7 @@
 
 致 Wondernutts：既然你指责我是小偷，那就请你在构建自己的 SKSE 改进时，千万不要使用我这个“小偷”的任何逻辑。既然要谈礼仪，请你自己先遵守。我同样有反编译的能力。
 
-关于 WinSock2：之前的 WinSock2 是因为 NG 模板（CommonLibVR）自带的。我已经反馈给上游：[CommonLibVR/issues。](https://github.com/alandtse/CommonLibVR/issues)
+关于 WinSock2：之前的 WinSock2 是因为 NG 模板（CommonLibVR）自带的。我已经反馈给上游：[CommonLibVR/issues。](https://github.com/alandtse/CommonLibVR/issues)我不会无聊到在NG模板的几千个cpp里专门找一个最容易找出来的东西加恶意代码或者后门，那是弱智。那个CPP只有一点点大小。来源不明，我重新下载了之后似乎又没有了，很奇怪。我之前是用的cmake，有人给我推荐了xmake的项目，我就下载了下来，我也没有去验证。
 
 修复进度：空指针和野指针修得差不多了，剩下看心情。
 

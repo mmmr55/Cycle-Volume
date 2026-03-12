@@ -2,33 +2,26 @@
 
 生育与Fill Her Up类似概念的膨胀集成 目前只有灵魂石生成功能，我找不到授权的动作，OAR的那边我做了，但是json我不发了，依赖SLIF ng，且仅兼容Sexlab p+为接口，DLL模式
 
-关于本项目
+I literally finished the code, went to sleep, and woke up to find the goddamn mod delisted. Fucking unbelievable. I had notifications, but I was sleeping—I'm a human being, not a 24/7 support bot.
 
-既然 Wondernutts 的作者认定我之前的版本是“未署名的小偷”，那我不会再发布任何编译好的构建版本（Builds）。该项目目前托管在此，仅供我个人及朋友使用，或者供有能力自行构建的人参考。我不主张任何版权（Unlicense），这本来就只是为了自用。
+I was supposed to have the fixes finished by March 12th, but instead, I'm stuck dealing with this bullshit. My blood is literally boiling right now.
 
-我在此澄清并回应几点：
+To the people nitpicking and taking things out of context: Who the fuck do you think you are?
 
-关于 FM 重构：我原先确实是打算做 FM 的重构，在这种情况下，去研究源码是不可避免的。
+On Code Quality: Who the fuck dares to claim that they can write C++ without ever encountering an unexpected null pointer? That's the nature of low-level development.
 
-关于响应延迟：我和作者不在同一个时区，无法第一时间看到并回复他的信息。如果因此被判定为我的过错，那我接受这个结论，也没什么好争辩的。
+On Threading: The logic was running strictly on the main thread during my implementation, and I verified it with actual in-game testing. I simply hadn't implemented the multi-threading controls yet. Don't presume to lecture me on an architecture you clearly haven't even begun to grasp.
 
-代码逻辑：该项目不包含任何他人的代码实现。虽然我承认“概念逻辑”受到了影响（被污染）。
+On "Infringement" & The Sacred Source: To my "dear collaborator"—since when did reading your source code become a blood oath? Are you seriously suggesting that once a mortal gazes upon your "divine" scripts, they are forever forbidden from writing their own implementation of a fertility system? That's not a copyright claim; that's a cult. I’ve completely rebuilt the logic, yet you still play the "infringement" card because you're terrified of a version that actually functions better than yours.
 
-致 Wondernutts：既然你指责我是小偷，那就请你在构建自己的 SKSE 改进时，千万不要使用我这个“小偷”的任何逻辑。既然要谈礼仪，请你自己先遵守。我同样有反编译的能力。
+On My Intentions (A User’s Perspective): My only goal has always been to reduce the goddamn pressure on the script engine. I am a player first, just like everyone else in this community. I know the frustration of having a perfect load order ruined by script lag and engine stutter. I didn't write this as some distant dev looking for a trophy; I wrote this as a user who was sick and tired of the performance bottlenecks. I wanted a community environment where players could actually enjoy heavy-script mods without the game shitting itself. Moving this logic to a DLL was an act of optimization for the sake of every user's stability.
 
-关于 WinSock2：之前的 WinSock2 是因为 NG 模板（CommonLibVR）自带的。我已经反馈给上游：[CommonLibVR/issues。](https://github.com/alandtse/CommonLibVR/issues)我不会无聊到在NG模板的几千个cpp里专门找一个最容易找出来的东西加恶意代码或者后门，那是弱智。那个CPP只有一点点大小。来源不明，我重新下载了之后似乎又没有了，很奇怪。我之前是用的cmake，有人给我推荐了xmake的项目，我就下载了下来，我也没有去验证。
+On "Theft" and Ego: Calling me a "thief" for trying to address deep-seated architectural bottlenecks and extensibility issues is the most delusional, small-minded bullshit I've ever encountered. While the original scripts might not be a total "disaster," they certainly lack the scalability needed for modern, heavy-load environments. I don't give a flying fuck about "copyright" or "credits." I don't want your fame, and I don't want your name. I did this to make the game actually playable. If you think I'm doing this for a "brand," you've clearly spent too much time in your own bubble.
 
-修复进度：空指针和野指针修得差不多了，剩下看心情。
+Regarding the "Beta" Labeling: Let’s get one thing straight—while I might have missed adding the "Beta" tag to the Nexus description in my haste, the source repository on GitHub was clearly and explicitly labeled Beta1. Anyone who actually bothered to look at the project instead of just looking for reasons to complain would know this was a preliminary implementation for testing, not a final release. To weaponize a clerical oversight on one platform while ignoring the clear intent in the source code is the height of bad-faith behavior.
 
-我会去忙一些我确定拥有权限、且纯粹属于我自己的改进工作。
+On Accusations: When the fuck did I ever say I wanted to make some "King of Fertility" bullshit? Stop putting words in my mouth and taking my work out of context.
 
+I tried to be polite. I tried to explain things reasonably. But if you can't understand a civil explanation, then stop fucking listening altogether.
 
-About This Project
-Since the author of Wondernutts has labeled my previous version as the work of an "uncredited thief," I will no longer be releasing any compiled builds. This repository is now for my personal use and for my friends, or for those who wish to build it themselves. I claim no copyright (Unlicense) as this was always intended for personal use.
-Clarifications and Responses:
-FM Refactoring: I originally intended to refactor FM. In such a process, studying the source code is unavoidable.
-Communication Lag: I am not in the same city/timezone as the author, so I could not see or respond to his messages immediately. If this is perceived as my fault, then so be it.
-Code Logic: This project contains no code logic from anyone else. While I admit the "conceptual logic" was influenced (polluted), I no longer care to proceed with the planned refactor.
-To Wondernutts: Since you have called me a thief, I expect you to never use this "thief's" logic in your own SKSE improvements. If you want to lecture about etiquette, please follow it yourself. I am just as capable of decompiling your work.
-WinSock2: The inclusion of WinSock2 was due to the NG template (CommonLibVR). I have reported this to the upstream(https://github.com/alandtse/CommonLibVR/issues).
-Bug Fixes: Most null/wild pointer issues are resolved. The rest will be fixed depending on my mood.
+Fucking hell.
